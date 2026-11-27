@@ -6,7 +6,6 @@ When the user enters a valid "<username>" in username field
 And the user enters a valid "<password>" in password field
 And the user clicks on the Login button
 Then the user should navigate to search hotel page
-
 When user select the "<location>" by clicking select location field
 And  user select the "<hotel>" by clicking select hotel field
 And  user select the "<roomType>" by clicking select room type field
@@ -16,7 +15,6 @@ Then the user should navigate to select hotel page
 When the user select the hotel 
 And the user click the continue button
 Then the user should navigate to book hotel page 
-
 When the user enters a "<firstName>" in first name field
 And the user enters a "<lastName>" in last name field
 And the user enters a "<billingaddress>"  in address field
